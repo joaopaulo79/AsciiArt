@@ -13,7 +13,7 @@ namespace AsciiArt
             Console.WriteLine("//(__)\\\\");
             Console.WriteLine("||    ||");
             Console.WriteLine(" ");
-            Console.ForegroundColor = ConsoleColor.White;
+            Console.ResetColor();
         }
     }
 }
